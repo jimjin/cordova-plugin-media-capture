@@ -83,6 +83,29 @@ xmlns:rim="http://www.blackberry.com/ns/widgets"
         <source-file src="src/android/Capture.java" target-dir="src/org/apache/cordova/mediacapture" />
         <source-file src="src/android/FileHelper.java" target-dir="src/org/apache/cordova/mediacapture" />
         <source-file src="src/android/PendingRequests.java" target-dir="src/org/apache/cordova/mediacapture" />
+        <source-file src="src/android/SoundMeter.java" target-dir="src/org/apache/cordova/mediacapture" />
+        <source-file src="src/android/SoundMeterActivity.java" target-dir="src/org/apache/cordova/mediacapture" />
+
+        <resource-file src="res/android/anim/cancel_rc.xml" target-dir="res/anim" />
+        <resource-file src="res/android/anim/cancel_rc2.xml" target-dir="res/anim" />
+        <resource-file src="res/android/drawable/amp1.png" target-dir="res/drawable" />
+        <resource-file src="res/android/drawable/amp2.png" target-dir="res/drawable" />
+        <resource-file src="res/android/drawable/amp3.png" target-dir="res/drawable" />
+        <resource-file src="res/android/drawable/amp4.png" target-dir="res/drawable" />
+        <resource-file src="res/android/drawable/amp5.png" target-dir="res/drawable" />
+        <resource-file src="res/android/drawable/amp6.png" target-dir="res/drawable" />
+        <resource-file src="res/android/drawable/amp7.png" target-dir="res/drawable" />
+        <resource-file src="res/android/drawable/rcd_cancel_icon.png" target-dir="res/drawable" />
+        <resource-file src="res/android/drawable/voice_rcd_cancel_bg.png" target-dir="res/drawable" />
+        <resource-file src="res/android/drawable/voice_rcd_cancel_bg_focused.png" target-dir="res/drawable" />
+        <resource-file src="res/android/drawable/voice_rcd_hint.png" target-dir="res/drawable" />
+        <resource-file src="res/android/drawable/voice_rcd_hint_bg.9.png" target-dir="res/drawable" />
+        <resource-file src="res/android/drawable/voice_to_short.png" target-dir="res/drawable" />
+        <resource-file src="res/android/layout/activity_sound_meter.xml" target-dir="res/layout" />
+        <resource-file src="res/android/layout/voice_rcd_hint_window.xml" target-dir="res/layout" />
+        <resource-file src="res/android/values/attrs.xml" target-dir="res/values" />
+        <resource-file src="res/android/values/colors.xml" target-dir="res/values" />
+        <resource-file src="res/android/values/styles.xml" target-dir="res/values" />
 
         <js-module src="www/android/init.js" name="init">
             <runs />
